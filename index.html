@@ -1,0 +1,27 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>가을 라이트 옷장</title>
+<style>
+/* 한 줄 목록형 홈: 휴대폰에서 엄지로 누르기 쉬운 큰 행 */
+:root{--bg:#f7f2ea;--fg:#2b2420;--mut:#7a6d62;--card:#fffdf9;--bd:#e6dccd;--acc:#9a5b34;
+  --swatch1:#d8cbb3;--swatch2:#6e4e37;--swatch3:#66663f;--swatch4:#8c9aa3;--swatch5:#b07a5a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1916;--fg:#efe7dd;--mut:#a89a8c;--card:#26221e;--bd:#3b342d;--acc:#e3a575;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1c1916;--fg:#efe7dd;--mut:#a89a8c;--card:#26221e;--bd:#3b342d;--acc:#e3a575;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0 auto;max-width:640px;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;line-height:1.55;
+  padding-block:24px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-size:24px;margin:0 0 4px;text-wrap:balance}
+.lead{color:var(--mut);font-size:14px;margin:0 0 16px}
+.palette{display:flex;height:10px;border-radius:5px;overflow:hidden;margin:0 0 20px} .palette i{flex:1}
+.list{display:flex;flex-direction:column;gap:10px}
+.card{display:flex;flex-direction:column;gap:2px;padding:14px 16px;background:var(--card);border:1px solid var(--bd);border-radius:12px;text-decoration:none;color:var(--fg)}
+.card:active,.card:hover{border-color:var(--acc)} .card:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.t{font-size:17px;font-weight:700} .d{font-size:13px;color:var(--mut)}
+.note{font-size:12px;color:var(--mut);margin-top:22px}
+</style></head><body>
+<h1>가을 라이트 옷장</h1>
+<p class="lead">가을 웜 라이트·라이트 그레이시·소프트 오텀에 맞춘 색 조합, 브랜드 13곳의 실제 제품과 실측 기준 사이즈.</p>
+<div class="palette"><i style="background:var(--swatch1)"></i><i style="background:var(--swatch2)"></i><i style="background:var(--swatch3)"></i><i style="background:var(--swatch4)"></i><i style="background:var(--swatch5)"></i></div>
+<div class="list"><a class="card" href="outfits.html"><span class="t">추천 조합</span><span class="d">많이 공감한 색 조합 34개와 브랜드별 실제 코디, 같은 색 다른 스타일</span></a><a class="card" href="brands.html"><span class="t">브랜드별</span><span class="d">브랜드를 누르면 나와 어울리는 상의·아우터·하의 전부</span></a><a class="card" href="guide.html"><span class="t">구매 가이드</span><span class="d">내 옷장으로 입기, 다음에 살 옷 우선순위, 레이어드·정장 셔츠</span></a><a class="card" href="sizes.html"><span class="t">사이즈</span><span class="d">브랜드별 추천 사이즈와 근거(실측 기준)</span></a><a class="card" href="musinsa.html"><span class="t">무신사·소품</span><span class="d">무신사 브랜드 코디와 가죽 벨트·팔찌 등 소품</span></a><a class="card" href="coordi.html"><span class="t">라이트 팔레트</span><span class="d">가을 라이트 팔레트 기준 코디(이전 버전)</span></a></div>
+<p class="note">제품 사진·가격·재고는 각 브랜드 사이트 기준이며 바뀔 수 있어요. 제품을 누르면 브랜드 상품 페이지로 이동해요.</p>
+</body></html>
